@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form for submittion</title>
+  </head>
+  <body>
+    <h2>Hijacking searches</h2>
+    <h3>Google search</h3>
+    <form action="https://www.google.co.in/search">
+      <input type="text" name="query" id="q" />
+      <input type="submit" value="Google-Search" target="_blank" />
+    </form>
+    <h3>Youtube search</h3>
+    <form action="https://www.youtube.com/results">
+      <input type="text" name="search_query" id="query" />
+      <input type="submit" value="YoutubeSearch" />
+    </form>
+    <h3>Radio buttons</h3>
+    <form action="NOHTING">
+      <label for="xs">XS:</label>
+      <input type="radio" name="size" id="xs" value="xs" />
+      <label for="s">S:</label>
+      <input type="radio" name="size" id="s" value="s" />
+      <label for="m">M:</label>
+      <input type="radio" name="size" id="m" value="m" />
+    </form>
+    <h3>Please select meal type</h3>
+    <p>
+        <form action="meal">
+            <label for="meal">Please select the meal type:</label>
+    </p>
+    <p>
+        <select name="meal" id="meal">
+            <option value="dinner" name="dinner">Dinner</option>
+            <option value="lunch" name="lunch">Lunch</option>
+            <option value="breakfast" name="breakfast" selected>Breakfast</option>
+          </select>
+    </p>
+    <p>
+        <label for="range">Please select the range:</label>
+        <input type="range" name="range" id="range" max="100" min="0"/>
+    </p>
+    <button type="submit">submit</button>
+    </form>
+  </body>
+</html>

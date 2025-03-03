@@ -1,0 +1,19 @@
+body{
+    background-color:#e9edc9;
+}
+button{
+    background-color:#41F4CA;
+}
+p a{
+    color:red;
+}
+input + button{
+    background-color:#40766a;
+}
+::selection{
+    background-color:#41F4CA;
+}
+h2::first-letter{
+    color:#fca311;
+    font-size:50px;
+}

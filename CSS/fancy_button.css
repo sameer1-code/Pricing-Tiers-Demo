@@ -1,0 +1,28 @@
+body{
+    background-color:#000000;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+button{
+    outline:none;
+    border:1px solid orange;
+    top:50%;
+    left:50%;
+    color:orange;
+    padding:1em 2em;
+    font-size:1.5em;
+    background-color:#000000;
+    transition: all 0.5s;
+}
+button:hover{
+    border-color:rgb(133, 227, 131);
+    color:rgb(133, 227, 131);
+    box-shadow:0 0.5em 0.4em -0.5em #f1ff5c;
+    transform:translateY(-0.25em);
+    cursor:pointer;
+}
+button:active{
+    opacity:0.8;
+}

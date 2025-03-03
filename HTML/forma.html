@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms Demo</title>
+  </head>
+  <body>
+    <form action="/nothing">
+      <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+      </p>
+      <p>
+        <label for="password" name="password">password:</label>
+        <input type="password" id="password" name="password" />
+      </p>
+      <p>
+        <label for="cheese" name="cheese">Do you want cheese?</label>
+        <input type="checkbox" id="cheese" name="cheese" />
+      </p>
+      <p>
+        <label for="curry" name="curry">Do you want curry?</label>
+        <input type="checkbox" id="curry" name="curry" />
+      </p>
+      <button>Submit</button>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

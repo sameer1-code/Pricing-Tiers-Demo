@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms validations</title>
+  </head>
+  <body>
+    <h2>Create your Stripe account</h2>
+    <form action="">
+      <p>
+        <label for="email">Email</label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          required
+        />
+      </p>
+      <p>
+        <label for="username">Full name</label><br />
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Username"
+        />
+      </p>
+      <p>
+        <label for="password">Password</label><br />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+          required
+        />
+      </p>
+      <p>
+        <label for="confirm-password">Confirm password</label><br />
+        <input
+          type="password"
+          name="confirm-password"
+          id="confirm-password"
+          placeholder="Confirm password"
+          required
+        />
+      </p>
+      <button>Create account</button>
+    </form>
+  </body>
+</html>

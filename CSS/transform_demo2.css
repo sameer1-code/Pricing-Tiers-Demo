@@ -1,0 +1,58 @@
+.div1{
+    border: 3px solid black;
+    width: 200px;
+    height:200px;
+    margin:10px;
+    border-radius:50%;
+    background-color:yellow;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    transform:rotate(180deg);
+    transition:1s;
+    animation:linear rotate 1s infinite;
+}
+.div1:hover{
+    background-color:rgba(255, 132, 2,0.15);
+    transform: ease-in-out;
+    box-shadow: rgba(255, 115, 1, 0.35) 0px 1px 15px;
+    transition:rotate(180deg);
+    transition-timing-function:steps(6,end);
+    width:400px;
+    height:400px;
+    border-radius:20%;
+}
+.div2{
+    width:20px;
+    height:20px;
+    background-color:black;
+    border-radius:50%;
+    display:relative;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes rotate{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+section div{
+    width:40px;
+    height:40px;
+    background-color:aqua;
+    margin:10px;
+    transition: margin-left 3s;
+}
+section:hover div{
+    margin-left:500px;
+}
+section div:nth-of-type(1){
+    transition-timing-function: ease-in;
+}
+section div:nth-of-type(2){
+    transition-timing-function: ease-out;
+}
